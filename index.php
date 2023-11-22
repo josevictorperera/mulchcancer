@@ -3,7 +3,8 @@
 
 
 
-
+<?php 
+    include('body.php');?>
 
 
 
