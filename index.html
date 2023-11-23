@@ -45,6 +45,36 @@
         th {
            background-color: #f2f2f2;
         }
+        /* Responsive styles for screens up to 768px wide */
+        @media (max-width: 768px) {
+        body {
+           font-size: 14px;
+        }
+
+        .container {
+           width: 90%;
+        }
+        }
+
+         /* Responsive styles for screens up to 576px wide */
+        @media (max-width: 576px) {
+        body {
+           font-size: 13px;
+        }
+
+        .container {
+           width: 95%;
+        }
+        /* Default styles for screens larger than 768px wide */
+        @media (min-width: 769px) {
+        body {
+           font-size: 16px;
+        }
+        .container {
+           width: 70%;
+        }
+        }
+        }
     </style>
 </head>
 <body>
