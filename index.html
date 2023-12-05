@@ -73,14 +73,44 @@
            font-size: 16px;
         }        
         .container {
-          width: 95%;
+            width: 100%;
+            max-width: 1000px;
+            margin: 0 auto;
         }
         .content {
             width: 80%; /* Adjust the width as needed */
         }
         .links {
-            width: 80%; /* Adjust the width as needed */
+        width: 80%; /* Adjust the width as needed */
+        background-color: #f8f9fa; /* Light background color */
+        padding: 15px;
+        border-radius: 8px; /* Rounded corners for a modern look */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle box shadow */
+        border: 2px solid #3498db; /* Border around the .links section */
         }
+        }
+        /* Add this to your existing styles or customize as needed */
+
+        /* Vibrant colors for the table header */
+        .table thead th {
+            background-color: #3498db;
+            color: #fff;
+        }
+
+        /* Alternating row colors */
+        .table tbody tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        /* Hover effect for rows */
+        .table tbody tr:hover {
+            background-color: #dff0d8;
+        }
+
+        /* Style specific cells for emphasis */
+        .table tbody td.special {
+            font-weight: bold;
+            color: #e74c3c; /* Red color for emphasis */
         }
 
     </style>
@@ -106,7 +136,7 @@
           </thead>
           <tbody>
             <tr>
-              <td>Wood Dust</td>
+              <td class="special">Wood Dust</td>
               <td>Group 1 - Carcinogenic to humans</td>
             </tr>
             <tr>
@@ -133,7 +163,7 @@
           </thead>
           <tbody>
             <tr>
-              <td>Group 1</td>
+              <td class="special">Group 1</td>
               <td>Carcinogenic to humans</td>
               <td>127 agents</td>
             </tr>
@@ -167,7 +197,7 @@
                     <th>TLV (Threshold Limit Value)</th>
                   </tr>
                   <tr>
-                    <td>Wood Dust</td>
+                    <td class="special">Wood Dust</td>
                     <td>A1 - Confirmed Human Carcinogen</td>
                     <td>1 mg/m³ (8-hour TWA)</td>
                   </tr>
