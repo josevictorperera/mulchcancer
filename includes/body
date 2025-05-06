@@ -1,0 +1,165 @@
+<main>
+    <div class="container">
+        <h2 class="mt-4">Carcinogenicity Comparison - <a href="https://www.ncbi.nlm.nih.gov/books/NBK590780/" target="_blank" rel="noopener noreferrer">The National Toxicology Program lists wood dust as a human carcinogen</a></h2>
+
+        <table class="table table-bordered mt-4">
+            <thead class="thead-light">
+                <tr>
+                    <th scope="col">Substance</th>
+                    <th scope="col">IARC Classification</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="special">Wood Dust</td>
+                    <td>Group 1 - Carcinogenic to humans</td>
+                </tr>
+                <tr>
+                    <td>Asbestos</td>
+                    <td>Group 1 - Carcinogenic to humans</td>
+                </tr>
+                <tr>
+                    <td>Tobacco Smoke</td>
+                    <td>Group 1 - Carcinogenic to humans</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="container">
+        <h2 class="mt-4">IARC Carcinogenicity Classification</h2>
+
+        <table class="table table-bordered mt-4">
+            <thead class="thead-light">
+                <tr>
+                    <th scope="col">Group</th>
+                    <th scope="col">Description</th>
+                    <th scope="col">Number of Agents</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="special">Group 1</td>
+                    <td>Carcinogenic to humans</td>
+                    <td>127 agents</td>
+                </tr>
+                <tr>
+                    <td>Group 2A</td>
+                    <td>Probably carcinogenic to humans</td>
+                    <td>95 agents</td>
+                </tr>
+                <tr>
+                    <td>Group 2B</td>
+                    <td>Possibly carcinogenic to humans</td>
+                    <td>323 agents</td>
+                </tr>
+                <tr>
+                    <td>Group 3</td>
+                    <td>Not classifiable as to its carcinogenicity to humans</td>
+                    <td>500 agents</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <section>
+        <div class="container">
+            <h2>(American Conference of Governmental Industrial Hygienists)</h2>
+            <h3>Carcinogenicity Comparison</h3>
+
+            <table class="table table-bordered mt-4">
+                <thead class="thead-light">
+                    <tr>
+                        <th scope="col">Substance</th>
+                        <th scope="col">ACGIH Classification</th>
+                        <th scope="col">TLV (Threshold Limit Value)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="special">Wood Dust</td>
+                        <td>A1 - Confirmed Human Carcinogen</td>
+                        <td>1 mg/m³ (8-hour TWA)</td>
+                    </tr>
+                    <tr>
+                        <td>Asbestos</td>
+                        <td>A1 - Confirmed Human Carcinogen</td>
+                        <td>0.1 f/cc (8-hour TWA)</td>
+                    </tr>
+                    <tr>
+                        <td>Tobacco Smoke</td>
+                        <td>A4 - Not Classifiable as a Human Carcinogen</td>
+                        <td>Not assigned</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <section>
+        <div class="container mt-5 font-italic border p-3 links">
+            <blockquote class="blockquote">
+                <h3 class="text-primary"><span class="text-lg font-weight-bold text-dark">"</span>Human Carcinogenicity Data</h3>
+                <p class="text-justify mb-0">
+                    Exposure to wood dust has been linked to increased risk of adenocarcinoma in the nasal cavities and paranasal sinuses...
+                </p>
+                <footer class="blockquote-footer">— IARC, <cite><a href="https://monographs.iarc.who.int/wp-content/uploads/2018/06/mono62.pdf" target="_blank" rel="noopener noreferrer">IARC Monographs on Wood Dust and Formaldehyde</a></cite></footer>
+            </blockquote>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <h3>Sources of Mulch Air Pollution</h3>
+            <p class="text-danger">
+                Mulch air pollution primarily stems from the grinding up of wood for massive production of mulch...
+            </p>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <h2 class="my-4">Wood Dust Pollution During Mulch Production:
+                <small>Risks to the Community</small>
+            </h2>
+
+            <div class="blog-post">
+                <div class="container img-thumbnail rounded text-center">
+                    <img class="img-fluid rounded-circle w-75 h-auto" src="/images/2-min.png" alt="Mulch Production">
+                </div>
+
+                <h3 class="text-primary">Introduction</h3>
+                <p class="text-justify">Wood mulch is a popular landscaping material known for its benefits, but its production raises environmental concerns...</p>
+
+                <h3 class="text-primary">Health Risks</h3>
+                <p class="text-justify">Exposure to wood dust has been linked to respiratory conditions such as asthma, bronchitis, and COPD...</p>
+
+                <h3 class="text-primary">Environmental Impact</h3>
+                <p class="text-justify">Wood dust pollution affects local ecosystems and contributes to overall air pollution...</p>
+
+                <h3 class="text-primary">Mitigation Strategies</h3>
+                <p class="text-justify">Using advanced dust collection systems and implementing regulations can help reduce emissions...</p>
+
+                <h3 class="text-primary">Conclusion</h3>
+                <p class="text-justify">By understanding the risks associated with mulch production, communities can work toward sustainable solutions...</p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container links">
+            <h2>Further Reading:</h2>
+            <ul>
+                <li><a href="https://pubmed.ncbi.nlm.nih.gov/19153109/" target="_blank" rel="noopener noreferrer">A case-control study on occupational risk factors for sino-nasal cancer</a></li>
+                <li><a href="https://monographs.iarc.who.int/wp-content/uploads/2018/06/mono62.pdf" target="_blank" rel="noopener noreferrer">IARC MONOGRAPHS</a></li>
+                <li><a href="https://www.cdc.gov/niosh/docs/wooddust/pdfs/exposures-references.pdf" target="_blank" rel="noopener noreferrer">Health Effects of Exposure to Wood Dust</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="text-center my-4">
+        <h2>Get Involved</h2>
+        <p>Learn more about mulch cancer prevention by downloading our guide and sharing the information.</p>
+        <a href="mulchcancer.pdf" download="Mulch_Cancer_Guide.pdf" class="btn btn-primary">Download the PDF Guide</a>
+    </section>
+</main>
