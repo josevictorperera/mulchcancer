@@ -1,1 +1,159 @@
+/* General Styles */
+body {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+main {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #0366d6;
+}
+
+/* Table Styles */
+table {
+    width: 80%;
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+
+th, td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+
+    .container {
+        width: 90%;
+    }
+}
+
+@media (max-width: 576px) {
+    body {
+        font-size: 13px;
+    }
+
+    .container {
+        width: 95%;
+    }
+}
+
+@media (min-width: 769px) {
+    body {
+        font-size: 16px;
+    }
+
+    .container {
+        width: 100%;
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+}
+
+/* Enhanced Table Styling */
+.table thead th {
+    background-color: #3498db;
+    color: #fff;
+}
+
+.table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.table tbody tr:hover {
+    background-color: #dff0d8;
+    cursor: pointer;
+}
+
+.table tbody td.special {
+    font-weight: bold;
+    color: #e74c3c;
+}
+
+/* Social Media Icons */
+.social-icon {
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+    fill: #d1d409;
+    transition: fill 0.3s ease;
+}
+
+.social-icon:hover {
+    fill: #007bff;
+}
+
+/* Blockquote Styling */
+.blockquote {
+    border-left: 5px solid #0366d6;
+    padding-left: 20px;
+    margin-left: 10px;
+}
+
+.blockquote-footer {
+    font-size: 0.9em;
+    color: #555;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f7f7ed;
+    border-top: 2px solid #ff8c00;
+}
+
+footer a {
+    color: #0366d6;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Links Section */
+.links {
+    width: 80%;
+    background-color: #f8f9fa;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 2px solid #3498db;
+}
+
+/* Image Styling */
+.img-thumbnail {
+    max-width: 100%;
+    height: auto;
+}
+
+.rounded-pill {
+    border-radius: 50%;
+}
 
